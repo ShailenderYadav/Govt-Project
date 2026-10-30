@@ -64,4 +64,4 @@ Establish a baseline from anonymised manual records, then pilot with 3–5 offic
 ## Deployment and submission
 Deploy one Node process with `npm start` on a Node host that supports a persistent volume. Set NODE_ENV=production, DEMO_PASSWORD, optional OPENAI_API_KEY and DATA_DIR pointing to the mounted volume. HTTPS is required for secure production cookies; a typical reverse proxy must preserve Host and provide the same public origin. Ephemeral/serverless disks will lose records. Do not scale this JSON backend to multiple instances. Health endpoint: /api/health.
 
-Before submitting: deploy and verify live AI, create an accessible GitHub repository, update this README with the live URL, and email the repository, URL and test credentials by **2 November 2026**. GitHub and deployment have not been created by this local implementation.
+Before submitting: deploy and verify live AI, create an accessible GitHub repository, update this README with the live URL, and email the repository, URL and test credentials by **2 November 2026**. Source repository: https://github.com/ShailenderYadav/Govt-Project. Live deployment is still pending.
